@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "assert": true,
+    "expect": true
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "no-unreachable": 2,
+    "no-unexpected-multiline": 2,
+    "new-cap": ["error", {newIsCap: true, capIsNew: false}],
+    "no-console": 0
+  }
+}
